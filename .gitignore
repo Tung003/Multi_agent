@@ -1,0 +1,7 @@
+.env
+venv/
+data/
+old_file_upload/
+__pycache__/
+old_file_upload/
+note.txt
