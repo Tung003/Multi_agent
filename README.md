@@ -3,6 +3,9 @@
 </p>
 
 [![GitHub license](https://img.shields.io/github/license/Tung003/Multi_agent)](https://github.com/Tung003/Multi_agent/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Tung003/Multi_agent)](https://github.com/Tung003/Multi_agent/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Tung003/Multi_agent)](https://github.com/Tung003/Multi_agent/network)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Tung003/Multi_agent)](https://github.com/Tung003/Multi_agent/commits/main)
 
 ## Introduction
 
