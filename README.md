@@ -9,7 +9,8 @@
 
 ## Introduction
 
-Here is my python source code for Multi agent LLMs system:
+Here is my python source code for the basic multi-agent LLM system<br/>
+However after this project I might design a multi-agent system with another api like LANGGRAPH.
 
 1: First agent is memory_chat: this agent have memory, it can chat and still remember what happened before <br/>
 2: Second agent is summery_pdf: this agent can summarize file PDF and chat about informations in the file <br/>
@@ -79,3 +80,15 @@ Here is my python source code for Multi agent LLMs system:
           !docker build -t <name_image> .   
      2: Run docker image
           !docker run -p 8000:8000 -e GROQ_API_KEY=<API_key> <name_image>
+
+## Operation
+- The agents in this project seem to only interact loosely with each other, but they can still interact and communicate with each other directly through the dialogue.
+
+- For example, the summarizing agent and the memory agent, after summarizing, the memory agent both save the conversation between the user and the bot, the memory agent can be considered a fallback agent for all exceptional situations.
+## Extend
+- First, This multi-agent system can be extended with more agents to handle more user requests. 
+- Second, APIs such as LANGGRAPH can be used to enable agents to communicate, manage and respond more tightly.
+
+![LangGraph Supervisor Diagram](https://blog.langchain.com/content/images/size/w1000/2024/01/supervisor-diagram.png)
+
+![LangGraph Supervisor Diagram](https://blog.langchain.com/content/images/size/w1000/2024/01/hierarchical-diagram.png)
