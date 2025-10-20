@@ -92,3 +92,5 @@ However after this project I might design a multi-agent system with another api 
 ![LangGraph Supervisor Diagram](https://blog.langchain.com/content/images/size/w1000/2024/01/supervisor-diagram.png)
 
 ![LangGraph Supervisor Diagram](https://blog.langchain.com/content/images/size/w1000/2024/01/hierarchical-diagram.png)
+
+# Trang web đăng ký domain free https://www.noip.com/
